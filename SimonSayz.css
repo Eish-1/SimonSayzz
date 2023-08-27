@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-color: burlywood;
+}
+
+/* configuration for the divs inside the container */
+.btn{
+    height: 170px;
+    width: 170px;
+    border: black 10px solid;
+    border-radius: 20%;
+    margin: 1rem;
+
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+/* colors for each of the div */
+.yellow{
+    background-color: gold;
+}
+.green{
+    background-color: limegreen;
+}
+.blue{
+    background-color: cornflowerblue;
+}
+.red{
+    background-color: orangered;
+}
+
+/* flashing buttons */
+.flash{
+    background-color: burlywood;
+}
+.userFlash{
+    background-color:black;
+}
+.bgFlash{
+    background-color: crimson;
+}

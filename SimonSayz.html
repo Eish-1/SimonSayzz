@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says!</title>
+    <link rel="stylesheet" href="SimonSayz.css">
+</head>
+<body>
+    <h1>Simon Says Game!</h1>
+    <h2>Press any key to start the game.</h2>
+
+    <div class="btn-container">
+        <div class="line1">
+            <div class="btn red" type="button" id="red">1</div>
+            <div class="btn yellow" type="button" id="yellow">2</div>
+        </div>
+        <div class="line2">
+            <div class="btn green" type="button" id="green">3</div>
+            <div class="btn blue" type="button" id="blue">4</div>
+        </div>
+    </div>
+
+    <!-- creating those sepreate divs made things much easiern for styling -->
+    <!-- gave each div the type="button" since we wanted those boxed to behave -->
+    <!-- like buttons. Now click events will work on them.-->
+
+    <!--  ID's used to get the information regarding the color out for display and use -->
+    <!-- No styling being applied using ID. -->
+    <script src="SimonSayz.js"></script>
+</body>
+</html>
